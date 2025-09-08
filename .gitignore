@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS cruft
+.DS_Store
+
+# Local config & env files
+.env
+.env.*
+*.local.yml
+docker-compose.override.yml
+
+# VS Code project settings (if you don't want them in git)
+.vscode/
+
+# App runtime/output (if ever created locally)
+instance/
+uploads/
+data/
